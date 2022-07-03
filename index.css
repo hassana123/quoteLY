@@ -36,6 +36,8 @@ nav ul li a{
 .hamburger{
     display:block;
     margin-top: -3%;
+    margin-left: 2%;
+    margin-right: 2%;
     cursor: pointer;
 
 }
@@ -44,16 +46,18 @@ nav ul li a{
 
 }
 .search{
-    margin-top: 5%;
+    margin-top: 3%;
+    margin-left: 2%;
     margin-bottom: 7%;
 }
 .categories{
-    margin-top: 10%;
+    margin-top: 5%;
     margin-bottom: 7%;
-    margin-right: 17%;
+    margin-right: 5%;
+    margin-left: 5%;
 }
 header img{
-    width: 18%;
+    width: 13%;
     position: absolute;
 }
 input{
@@ -92,38 +96,43 @@ button{
 }
 section{
     display: grid;
+    margin-left: 5%;
+    margin-right: 5%;
+    grid-column-gap: 10px;
     grid-template-columns: 1fr 1fr;
 }
 section h1{
     font-weight:900;
-    font-size: 1.6rem;
-    margin-top: 10%;
+    font-size: 1rem;
+    margin-top: 5%;
+   
 }
 .joy{
+    margin-right: 10%;
     text-align: center;
     color: white;
-    width: 90%;
+    width: 100%;
     margin-bottom: 10%;
     padding: 0 5%;
-    height: 35vh;
+    height: 50vh;
     border-radius: 20px;
     background: #fe8dc6;
 }
 .love{
     text-align: center;
     color: white;
-    width: 90%;
+    width: 100%;
     padding: 0 5%;
-    height: 35vh;
+    height: 50vh;
     border-radius: 20px;
     background: palevioletred;
 }
 .mental{
     text-align: center;
     color: white;
-    width: 90%;
+    width: 100%;
     padding: 0 5%;
-    height: 35vh;
+    height: 50vh;
     margin-bottom: 10%;
     border-radius: 20px;
     background: skyblue;
@@ -131,9 +140,9 @@ section h1{
 .productive{
     text-align: center;
     color: white;
-    width: 90%;
+    width: 100%;
     padding: 0 5%;
-    height: 35vh;
+    height: 50vh;
     margin-bottom: 10%;
     border-radius: 20px;
     background: #588bae;
@@ -141,9 +150,9 @@ section h1{
 .emotional{
     text-align: center;
     color: white;
-    width: 90%;
+    width: 100%;;
     padding: 0 5%;
-    height: 35vh;
+    height: 50vh;
     margin-bottom: 10%;
     border-radius: 20px;
     background: #4b0076;
@@ -151,10 +160,10 @@ section h1{
 .mom{
     text-align: center;
     color: white;
-    width: 90%;
+    width: 100%;
     padding: 0 5%;
     margin-bottom: 10%;
-    height: 35vh;
+    height: 50vh;
     border-radius: 20px;
     background: #2d5a27;
 }
@@ -162,9 +171,9 @@ section h1{
 .inspirational{
     text-align: center;
     color: white;
-    width: 90%;
+    width: 100%;
     padding: 0 5%;
-    height: 35vh;
+    height: 50vh;
     border-radius: 20px;
     background: #722f37;
 }
@@ -172,9 +181,9 @@ section h1{
 .leadership{
     text-align: center;
     color: white;
-    width: 90%;
+    width: 100%;
     padding: 0 5%;
-    height: 35vh;
+    height: 50vh;
     margin-bottom: 10%;
     border-radius: 20px;
     background: #1034a6; 
@@ -183,9 +192,9 @@ section h1{
 .tech{
     text-align: center;
     color: white;
-    width: 90%;
+    width: 100%;
     padding: 0 5%;
-    height: 35vh;
+    height: 50vh;
     border-radius: 20px;
     background: #82d3c2;
 }
@@ -193,9 +202,9 @@ section h1{
 .peace{
     text-align: center;
     color: white;
-    width: 90%;
+    width: 100%;
     padding: 0 5%;
-    height: 35vh;
+    height: 50vh;
     border-radius: 20px;
     background: #040406;
 }
@@ -206,62 +215,62 @@ img{
     width: 100%;
 }
 .love img{
-    height: 25vh;
+    height: 35vh;
     margin-top: 15%;
     border-radius: 115px;
     border: 10px solid pink;
 }
 .joy img{
-    height: 25vh;
+    height: 35vh;
     margin-top: 15%;
     border-radius: 115px;
     border: 10px solid purple;
 }
 
 .emotional img{
-    height: 25vh;
+    height: 35vh;
     margin-top: 15%;
     border-radius: 115px;
     border: 10px solid #ffaa1d;
 }
 .productive img{
-    height: 25vh;
+    height: 35vh;
     margin-top: 15%;
     border-radius: 115px;
     border: 10px solid #0e4d92;
 }
 .mental img{
-    height: 25vh;
+    height: 35vh;
     margin-top: 15%;
     border-radius: 115px;
     border: 10px solid #fa86c4;
 }
 .inspirational img{
-    height: 25vh;
+    height: 35vh;
     margin-top: 15%;
     border-radius: 115px;
     border: 10px solid #ff5c5c;
 }
 .mom img{
-    height: 25vh;
+    height: 35vh;
     margin-top: 15%;
     border-radius: 115px;
     border: 10px solid #ff9899;
 }
 .tech img{
-    height: 25vh;
+    height: 35vh;
     margin-top: 15%;
     border-radius: 115px;
     border: 10px solid #01796f;
 }
 .leadership img{
-    height: 25vh;
+    height: 35vh;
     margin-top: 15%;
     border-radius: 115px;
     border: 10px solid #b80f0a;
 }
 .peace img{
-    height: 25vh;
+    height: 35vh;
     margin-top: 15%;
     border-radius: 115px;
     border: 10px solid #ffffff;

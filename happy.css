@@ -1,4 +1,5 @@
 body{
+    width: 100%;
     height: 100vh;
     text-align: center;
     background: linear-gradient(to left,#060c3b, #00aeef);
@@ -8,32 +9,32 @@ main{
     text-transform: capitalize;
     color: #ffffff;
     height: 100vh;
+    width: 100%;
    
+}
+.categories{
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.search{
+    margin-left: -6%;
 }
 .search-bar{
     background: transparent;
 }
 #quote{
-
-    width: 100%;
-    font-size: 2.5rem;
-    text-align: center;
-    color: white;
     
-}
-#quote q{
-    margin-top: 20%;
-    margin-left: 35%;
-    margin-right: 35%;
     width: 100%;
-    margin-bottom: 20%;
+    margin: 20% 15%;
 }
-#quote a{
+
+ #next{
     height: 10vh;
-    width: 70%;
-    margin-left: 50%;
-    border-radius: 35px;
-    padding: 10% 5%;
+    width: 100%;
+    margin-left: 40%;
+    border-radius: 15px;
+    padding: 5% 15%;
     text-decoration: none;
     color: white;
     background: #1034a6;
