@@ -1,0 +1,40 @@
+body{
+    height: 100vh;
+    text-align: center;
+    background: linear-gradient(to left,#060c3b, #00aeef);
+
+}
+main{
+    text-transform: capitalize;
+    color: #ffffff;
+    height: 100vh;
+   
+}
+.search-bar{
+    background: transparent;
+}
+#quote{
+
+    width: 100%;
+    font-size: 2.5rem;
+    text-align: center;
+    color: white;
+    
+}
+#quote q{
+    margin-top: 20%;
+    margin-left: 35%;
+    margin-right: 35%;
+    width: 100%;
+    margin-bottom: 20%;
+}
+#quote a{
+    height: 10vh;
+    width: 70%;
+    margin-left: 50%;
+    border-radius: 35px;
+    padding: 10% 5%;
+    text-decoration: none;
+    color: white;
+    background: #1034a6;
+}
