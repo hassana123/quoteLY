@@ -169,14 +169,14 @@ img{
     height: 28vh;
     margin-bottom: 10%;
     margin-top: 15%;
-    border-radius: 90px;
+    border-radius: 80px;
     border: 10px solid pink;
 }
 .joy img{
     margin-bottom: 10%;
     height: 28vh;
     margin-top: 15%;
-    border-radius: 115px;
+    border-radius: 80px;
     border: 10px solid purple;
 }
 
@@ -184,55 +184,55 @@ img{
     height: 28vh;
     margin-bottom: 10%;
     margin-top: 15%;
-    border-radius: 115px;
+    border-radius: 80px;
     border: 10px solid #ffaa1d;
 }
 .productive img{
     height: 28vh;
     margin-bottom: 10%;
     margin-top: 15%;
-    border-radius: 115px;
+    border-radius: 80px;
     border: 10px solid #0e4d92;
 }
 .mental img{
     height: 28vh;
     margin-top: 15%;
     margin-bottom: 10%;
-    border-radius: 115px;
+    border-radius: 80px;
     border: 10px solid #fa86c4;
 }
 .inspirational img{
     height:28vh;
     margin-bottom: 10%;
     margin-top: 15%;
-    border-radius: 115px;
+    border-radius: 80px;
     border: 10px solid #ff5c5c;
 }
 .mom img{
     height: 28vh;
     margin-top: 15%;
     margin-bottom: 10%;
-    border-radius: 115px;
+    border-radius: 80px;
     border: 10px solid #ff9899;
 }
 .tech img{
     height: 28vh;
     margin-top: 15%;
     margin-bottom: 10%;
-    border-radius: 115px;
+    border-radius: 80px;
     border: 10px solid #01796f;
 }
 .leadership img{
     height: 28vh;
     margin-top: 15%;
     margin-bottom: 10%;
-    border-radius: 115px;
+    border-radius: 80px;
     border: 10px solid #b80f0a;
 }
 .peace img{
     height: 28vh;
     margin-bottom: 10%;
     margin-top: 15%;
-    border-radius: 115px;
+    border-radius: 80px;
     border: 10px solid #ffffff;
 }
