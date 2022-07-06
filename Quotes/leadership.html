@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="quote.css">
     <script src="index.js" defer></script>
-    <script src="techQuotes.js" defer></script>
-    <title>TechnologyQuotes</title>
+    <script src="leadershipQuotes.js" defer></script>
+    <title>LeadershipQuotes</title>
 </head>
 <body>
     <main id="main">
@@ -24,11 +24,22 @@
         <nav id="display-nav-bar">
             <a id="exit">&times;</a>
             <ul>
-                <li><a href="tech.html">Quotes</a></li>
+                <li><a href="index.html">Quotes</a></li>
                 <li><a href="">Jokes</a></li>
                 <li><a href="">Riddles</a></li>
                 <li><a href="">Poems</a></li>
                 <li><a href="">Random</a></li>
+            </ul>
+            <hr>
+            <ul class="toggle">
+                <li class="dark-mode">Dark mode
+                    <span>
+                     <form>
+                      <input onclick="toggle(this.form)"  id="checkbox" name="checkbox" type="checkbox" /><label for="checkbox">Toggle</label>
+                     </form>
+                    </span>    
+                </li>
+                 
             </ul>
         </nav>
 

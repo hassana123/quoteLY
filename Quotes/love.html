@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="quote.css">
     <script src="index.js" defer></script>
-    <script src="leadershipQuotes.js" defer></script>
-    <title>LeadershipQuotes</title>
+    <script src="loveQuotes.js" defer></script>
+    <title>LoveQuotes</title>
 </head>
 <body>
     <main id="main">
@@ -30,6 +30,17 @@
                 <li><a href="">Poems</a></li>
                 <li><a href="">Random</a></li>
             </ul>
+            <hr>
+            <ul class="toggle">
+                <li class="dark-mode">Dark mode
+                    <span>
+                     <form>
+                      <input onclick="toggle(this.form)"  id="checkbox" name="checkbox" type="checkbox" /><label for="checkbox">Toggle</label>
+                     </form>
+                    </span>    
+                </li>
+                 
+            </ul>
         </nav>
 
     <section  id="quote">
@@ -39,6 +50,6 @@
             <br>
     </section>
     <a href="#" id="next">Next</a>
-</main>
+ </main>
 </body>
 </html>

@@ -1,7 +1,7 @@
 body{
     width: 100%;
     height: 100vh;
-    color: black;
+    color: white;
     text-align: center;
     background: linear-gradient(to left,#d0b5ff,  #1eae98);
 
@@ -28,7 +28,7 @@ nav{
     /* background: linear-gradient(to right,#ea8d8d, #a890fe); */
     position: absolute;
     width: 50%;
-    height: 55vh;
+    max-height: 100vh;
     transition: ease-in-out;
     transition-duration: 1s;
     transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1);    
@@ -73,7 +73,7 @@ button{
 }
 .back span {
     font-size: 3rem;
-    color: #000;
+    color: #fff;
     
 }
 .back a {
@@ -86,7 +86,7 @@ button{
     height: 2px;
     display: block;
     margin: 5px 5px;
-    background-color: #000;
+    background-color: #ffff;
 }
 .bar1{
     width: 50px;
@@ -94,7 +94,7 @@ button{
     height: 2px;
     display: block;
     margin: 5px 5px;
-    background-color: #000;
+    background-color: #ffff;
 }
 .bar2{
     width: 50px;
@@ -102,7 +102,7 @@ button{
     height: 2px;
     display: block;
     margin: 5px 5px;
-    background-color: #000;
+    background-color: #ffff;
 }
 
 #quote{
@@ -140,4 +140,51 @@ button{
     color: white;
     background: linear-gradient(to left, #cd295a, #34adae);
 }
+.toggle span{
+    float: right;
+  }
+  form{  
+    margin-top: 0;
+  }
+  /* checkbox toggler */
+  input[type=checkbox]{
+      height: 0;
+      width: 0;
+      visibility: hidden;
+  }
 
+  .toggle label {
+      cursor: pointer;
+      text-indent: -9999px;
+      width: 52px;
+      height: 27px;
+      background: gainsboro;
+      float: right;
+      border-radius: 100px;
+      position: relative;
+  }
+  #exit{
+      color: #000;
+  }
+ .toggle label:after {
+      content: '';
+      position: absolute;
+      top: 3px;
+      left: 3px;
+      width: 20px;
+      height: 20px;
+      background: #fff;
+      border-radius: 90px;
+      transition: 0.3s;
+  }
+ .toggle input:checked + label {
+      background: #040406;
+  }
+ .toggle input:checked + label:after {
+      left: calc(100% - 5px);
+      transform: translateX(-100%);
+  }
+  .toggle label:active:after {
+      width: 45px;
+      
+  }
