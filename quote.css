@@ -1,0 +1,144 @@
+body{
+    width: 100%;
+    height: 100vh;
+    color: black;
+    text-align: center;
+    background: linear-gradient(to left,#d0b5ff,  #1eae98);
+
+}
+.search img{
+    width: 55%;
+    margin-left: -35%;
+}
+.search{
+    margin-left: 0;
+}
+header {
+    display: grid;
+    grid-column-gap: 45%;
+    grid-template-columns: 2fr 2fr;
+}
+#exit{
+    font-size: 4rem;
+    text-align: right;
+    margin-left: 75%;
+}
+nav{
+    background: linear-gradient(to right,#d0b5ff,  #1eae98);
+    /* background: linear-gradient(to right,#ea8d8d, #a890fe); */
+    position: absolute;
+    width: 50%;
+    height: 55vh;
+    transition: ease-in-out;
+    transition-duration: 1s;
+    transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1);    
+    color: white;
+    left:0%;
+    display: block;
+    margin-left: -50%;
+    z-index: 1;
+    top: 0%;
+    text-align: left;
+}
+nav ul li{
+    margin-bottom: 20%;
+    margin-top: 10%;
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    border-bottom: 1px solid #040406;
+    font-size: 1.2rem;
+}
+
+nav ul li a:hover{
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid #fff;
+    font-size: 1.2rem;
+}
+button{
+    border: none;
+    background-color: transparent;
+}
+
+.hamburger{
+    display:block;
+    margin-top: -3%;
+    margin-left: 2%;
+    margin-right: 2%;
+    cursor: pointer;
+
+}
+.back span {
+    font-size: 3rem;
+    color: #000;
+    
+}
+.back a {
+    color: transparent;
+   
+}
+
+.bar{
+    width: 50px;
+    padding: 2px;
+    height: 2px;
+    display: block;
+    margin: 5px 5px;
+    background-color: #000;
+}
+.bar1{
+    width: 50px;
+    padding: 2px;
+    height: 2px;
+    display: block;
+    margin: 5px 5px;
+    background-color: #000;
+}
+.bar2{
+    width: 50px;
+    padding: 2px;
+    height: 2px;
+    display: block;
+    margin: 5px 5px;
+    background-color: #000;
+}
+
+#quote{
+    font-size: 1.3rem;
+    max-width: 80%;
+    margin: 30% 5%;
+}
+
+.hamburger{
+    display:block;
+    margin-top: -3%;
+    margin-left: 2%;
+    margin-right: 2%;
+    cursor: pointer;
+
+}
+
+ #next {
+    height: 10vh;
+    width: 100%;
+    margin-left: 40%;
+    border-radius: 20px;
+    padding: 5% 10%;
+    text-decoration: none;
+    color: white;
+    background: #1eae98;
+}
+#next:hover{
+    height: 10vh;
+    width: 100%;
+    margin-left: 40%;
+    border-radius: 20px;
+    padding: 5% 10%;
+    text-decoration: none;
+    color: white;
+    background: linear-gradient(to left, #cd295a, #34adae);
+}
+

@@ -23,8 +23,9 @@
     <main id="main">
         <header>
             <div class="search">
-                <img src="search.png" alt=""  >
-                <input class="search-bar" type="search">
+                <img id="search-img" src="/images/search.png" alt="">
+                <label id="remove-searh-bar" for="search-bar">&times;</label>
+                <input id="search" class="search-bar" type="search" placeholder="search">
             </div>
             <div class="categories">
                 <h1 >Categories</h1>
@@ -35,12 +36,25 @@
                 <span class="bar2"></span>
             </button>
         </header>
-        <nav>
+        <nav id="display-nav-bar">
+            <a id="exit">&times;</a>
             <ul>
-                <li><a href="">Quotes</a></li>
+                <li><a href="index.html">Quotes</a></li>
                 <li><a href="">Jokes</a></li>
                 <li><a href="">Riddles</a></li>
+                <li><a href="">Poems</a></li>
                 <li><a href="">Random</a></li>
+            </ul>
+            <hr>
+            <ul class="toggle">
+                <li class="dark-mode">Dark mode
+                    <span>
+                     <form>
+                      <input onclick="toggle(this.form)"  id="checkbox" name="checkbox" type="checkbox" /><label for="checkbox">Toggle</label>
+                     </form>
+                    </span>    
+                </li>
+                 
             </ul>
         </nav>
         
@@ -48,70 +62,70 @@
             <div class="cont joy">
                 <h1>happy</h1>
                 <a href="happy.html">
-                    <img src="joy.jpg" alt="">
+                    <img src="/images/joy.jpg" alt="">
             
                 </a>
             </div>
             <div class="cont love">
                 <h1>love</h1>
-                <a href="">
+                <a href="love.html">
                     
-                    <img src="love.jfif" alt="">
+                    <img src="/images/love.jfif" alt="">
                 </a>
             </div>
             <div class="cont mental">
                 <h1>mental health</h1>
-                <a href="">
+                <a href="mental.html">
                     
-                    <img src="mental.jfif" alt="">
+                    <img src="/images/mental.jfif" alt="">
                 </a>
             </div>
             <div class="cont productive">
                 <h1>productivity</h1>
-                <a href="">
-                    <img src="productivity.jpg" alt="">
+                <a href="productivity.html">
+                    <img src="/images/productivity.jpg" alt="">
                 </a>
             </div>
             <div class="cont emotional">
                 <h1>emotional</h1>
-                <a href="">
+                <a href="emotinal.html">
                     
-                    <img src="emotional.webp" alt="">
+                    <img src="/images/emotional.webp" alt="">
                 </a>
             </div>
             <div class="cont inspirational">
                 <h1>inspirational</h1>
-                <a href="">
+                <a href="inspirational.html">
                     
-                    <img src="inspiration.jpg" alt="">
+                    <img src="/images/inspiration.jpg" alt="">
                 </a>
             </div>
             <div class="cont leadership">
                 <h1>leadership</h1>
-                <a href="">
+                <a href="leadership.html">
                     
-                    <img src="Leadership.jpg" alt="">
+                    <img src="/images/Leadership.jpg" alt="">
                 </a>
             </div>
             <div class="cont tech">
                 <h1>technology</h1>
-                <a href="">
+                <a href="tech.html">
                     
-                    <img src="tech.webp" alt="">
+                    <img src="/images/tech.webp" alt="">
                 </a>
             </div>
             <div class="cont peace">
                 <h1>peace</h1>
-                <a href="">
+                <a href="peace.html">
                     
-                    <img src="peace.webp" alt="">
+                    <img src="/images/peace.webp" alt="">
                 </a>
             </div>
             <div class="cont mom">
                 <h1>mom</h1>
-                <a href="">
+                <a href="mom.html">
                     
-                    <img src="mom1.jpg" alt="">
+                    <img src="/images/mom.jfif" alt="">
                 </a>
             </div>
 
