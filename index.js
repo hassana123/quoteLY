@@ -32,7 +32,9 @@ function toggle(a){
         document.body.style.background ="#3e424b";
     }
     else if(a.checkbox.checked==false){
+        //let mainPage = document.querySelector("#quote-body");
         nav.style.background ="linear-gradient(to left, #fe8dc6, #fed1c7)";
+        //mainPage.style.background = "background: linear-gradient(to left,#d0b5ff,  #1eae98)";
         document.documentElement.classList.add('transition');
         document.body.style.background ="#fff";
     }
